@@ -64,7 +64,7 @@ const ObjectDetection = () => {
                         {/* webcam */}
                         <Webcam 
                             ref={webcamRef} 
-                            className="absolute rounded-md w-full lg:h-[720px]" 
+                            className="rounded-md w-full lg:h-[720px]" 
                             muted
                         >
                         </Webcam>
